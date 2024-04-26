@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*, *::before, *::after{
+    font-family: "Outfit", sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+/* <uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 100 to 900 */
+
+/* .outfit-chrome {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400,700;
+  font-style: normal;
+} */
+
+.qr-code-card{
+    background-color: hsl(0, 0%, 100%);
+    width: 300px;
+    height: 460px;
+    border-radius: 5%;
+    padding: 10px;
+    margin: 70;
+    text-align: center;
+}
+
+.qr-code-card img{
+    width: 100%;
+    border-radius: 10%;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr-code-card h2{
+    color: hsl(218, 44%, 22%);
+    font-size: 23px;
+}
+
+.qr-code-card p{
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+    padding: 15px;
+}
